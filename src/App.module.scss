@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  background-color: #17181f;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+.Container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tittle {
+  font-size: 5em;
+  color: #fff;
+  text-align: center;
+  animation: flipTittle 3s;
+}
+
+@keyframes flipTittle {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 50%;
+  }
+  to {
+    opacity: 70%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .tittle {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 506px) {
+  .tittle {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 414px) {
+  .tittle {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 390px) {
+  .tittle {
+    font-size: 40px;
+  }
+}
